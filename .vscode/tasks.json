@@ -1,0 +1,17 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Open Roblox Studio",
+			"type": "shell",
+			"command": "open",
+			"args": [
+				"-a",
+				"Roblox Studio"
+			],
+			"group": "build",
+			"isBackground": false,
+			"problemMatcher": []
+		}
+	]
+}

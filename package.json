@@ -1,0 +1,49 @@
+{
+  "name": "simple-roblox-obby",
+  "version": "1.0.0",
+  "description": "A simple obstacle course (obby) game for Roblox with timer, checkpoints, and leaderboard",
+  "main": "src/",
+  "directories": {
+    "src": "src/"
+  },
+  "scripts": {
+    "install": "echo 'This is a Roblox game project. Open in Roblox Studio and copy scripts to appropriate folders.'",
+    "build": "echo 'Use Roblox Studio to build and test the game.'",
+    "test": "echo 'Test the game in Roblox Studio.'",
+    "deploy": "echo 'Publish the game through Roblox Studio.'"
+  },
+  "keywords": [
+    "roblox",
+    "game",
+    "obby",
+    "obstacle-course",
+    "lua",
+    "luau"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/username/simple-roblox-obby"
+  },
+  "bugs": {
+    "url": "https://github.com/username/simple-roblox-obby/issues"
+  },
+  "homepage": "https://github.com/username/simple-roblox-obby#readme",
+  "roblox": {
+    "gameType": "Obby",
+    "targetAudience": "All Ages",
+    "features": [
+      "Timer System",
+      "Checkpoint System",
+      "Leaderboard",
+      "Moving Platforms",
+      "Reset Functionality",
+      "UI System"
+    ],
+    "requirements": {
+      "robloxStudio": "Latest version recommended",
+      "platforms": ["PC", "Mobile", "Console"]
+    }
+  }
+}
